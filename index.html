@@ -1,49 +1,602 @@
-<!DOCTYPE HTML>
-<!--[if lt IE 7 ]> <html lang="en" class="ie ie6"> <![endif]--> 
-<!--[if IE 7 ]>	<html lang="en" class="ie ie7"> <![endif]--> 
-<!--[if IE 8 ]>	<html lang="en" class="ie ie8"> <![endif]--> 
-<!--[if IE 9 ]>	<html lang="en" class="ie ie9"> <![endif]--> 
-<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+<!DOCTYPE html>
+<html lang="jp"></html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>OXEI 公式 | OXEI HOME</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    <!-- gLightbox gallery-->
+    <link rel="stylesheet" href="vendor/glightbox/css/glightbox.min.css">
+    <!-- Range slider-->
+    <link rel="stylesheet" href="vendor/nouislider/nouislider.min.css">
+    <!-- Choices CSS-->
+    <link rel="stylesheet" href="vendor/choices.js/public/assets/styles/choices.min.css">
+    <!-- Swiper slider-->
+    <link rel="stylesheet" href="vendor/swiper/swiper-bundle.min.css">
+    <!-- Google fonts-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;700&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Martel+Sans:wght@300;400;800&amp;display=swap">
+    <!-- theme stylesheet-->
+    <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
+    <!-- Custom stylesheet - for your changes-->
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="img/favicon.png">
+  </head>
+  <body>
+    <div class="page-holder">
+      <!-- navbar-->
+      <header class="header bg-white">
+        <div class="container px-lg-3">
+          <nav class="navbar navbar-expand-lg navbar-light py-3 px-lg-0"><a class="navbar-brand" href="index.html">
+            <span class="fw-bold text-uppercase text-dark">OXEI</span></a>
+            <button class="navbar-toggler navbar-toggler-end" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                  <!-- Link--><a class="nav-link active" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <!-- Link--><a class="nav-link" href="products.html">製品情報</a>
+                </li>
+                <li class="nav-item">
+                  <!-- Link--><a class="nav-link" href="about.html">企業情報</a>
+                </li>
+                <li class="nav-item">
+                  <!-- Link--><a class="nav-link" href="contact.html">お問い合わせ先</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <!--  Modal -->
+      <!--NO.1-->
+      <div class="modal fade" id="productView1" tabindex="-1">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content overflow-hidden border-0">
+            <button class="btn-close p-4 position-absolute top-0 end-0 z-index-20 shadow-0" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+            <div class="modal-body p-0">
+              <div class="row align-items-stretch">
+                <div class="col-lg-6 p-lg-0">
+                  <a class="glightbox product-view d-block h-100 bg-cover bg-center" style="background: url(img/product-1.jpg)" href="img/product-1.jpg" data-gallery="gallery1" data-glightbox="Red digital smartwatch"></a>
+                  <a class="glightbox d-none" href="img/product-1.jpg" data-gallery="gallery1" data-glightbox="Red digital smartwatch"></a>
+                  <a class="glightbox d-none" href="img/product-1.jpg" data-gallery="gallery1" data-glightbox="Red digital smartwatch"></a>
+                </div>
+                <div class="col-lg-6">
+                  <div class="p-4 my-md-4">
+                    <h2 class="h4">Illusion Series Double S</h2>
+                    <p class="text-muted">希望小売価格：190,000円より</p>
+                    <p class="text-sm mb-4">
+                      2画面表示という革新的な設定により、下のセカンダリー・スクリーンで好きなものを見ることができる。
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--NO.2-->
+      <div class="modal fade" id="productView2" tabindex="-1">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content overflow-hidden border-0">
+            <button class="btn-close p-4 position-absolute top-0 end-0 z-index-20 shadow-0" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+            <div class="modal-body p-0">
+              <div class="row align-items-stretch">
+                <div class="col-lg-6 p-lg-0">
+                  <a class="glightbox product-view d-block h-100 bg-cover bg-center" style="background: url(img/product-2.jpg)" href="img/product-2.jpg" data-gallery="gallery1" data-glightbox="Red digital smartwatch"></a>
+                  <a class="glightbox d-none" href="img/product-2.jpg" data-gallery="gallery1" data-glightbox="Red digital smartwatch"></a>
+                  <a class="glightbox d-none" href="img/product-2.jpg" data-gallery="gallery1" data-glightbox="Red digital smartwatch"></a>
+                </div>
+                <div class="col-lg-6">
+                  <div class="p-4 my-md-4">
+                    <h2 class="h4">Illusion Series Double A</h2>
+                    <p class="text-muted">希望小売価格：190,000円より</p>
+                    <p class="text-sm mb-4">
+                      フルサイズの2画面は、異なるコンテンツを同時に表示したり、他の人に見せたりするのに役立ちます。
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--NO.3-->
+      <div class="modal fade" id="productView3" tabindex="-1">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content overflow-hidden border-0">
+            <button class="btn-close p-4 position-absolute top-0 end-0 z-index-20 shadow-0" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+            <div class="modal-body p-0">
+              <div class="row align-items-stretch">
+                <div class="col-lg-6 p-lg-0">
+                  <a class="glightbox product-view d-block h-100 bg-cover bg-center" style="background: url(img/product-3.jpg)" href="img/product-3.jpg" data-gallery="gallery1" data-glightbox="Red digital smartwatch"></a>
+                  <a class="glightbox d-none" href="img/product-3.jpg" data-gallery="gallery1" data-glightbox="Red digital smartwatch"></a>
+                  <a class="glightbox d-none" href="img/product-3.jpg" data-gallery="gallery1" data-glightbox="Red digital smartwatch"></a>
+                </div>
+                <div class="col-lg-6">
+                  <div class="p-4 my-md-4">
+                    <h2 class="h4">Free Series OS1</h2>
+                    <p class="text-muted">希望小売価格：4,999円より</p>
+                    <p class="text-sm mb-4">
+                      素晴らしいサウンドのヘッドフォンであるだけでなく、ファッションアクセサリーでもある。
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--NO.4-->
+      <div class="modal fade" id="productView4" tabindex="-1">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content overflow-hidden border-0">
+            <button class="btn-close p-4 position-absolute top-0 end-0 z-index-20 shadow-0" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+            <div class="modal-body p-0">
+              <div class="row align-items-stretch">
+                <div class="col-lg-6 p-lg-0">
+                  <a class="glightbox product-view d-block h-100 bg-cover bg-center" style="background: url(img/product-4.jpg)" href="img/product-4.jpg" data-gallery="gallery1" data-glightbox="Red digital smartwatch"></a>
+                  <a class="glightbox d-none" href="img/product-4.jpg" data-gallery="gallery1" data-glightbox="Red digital smartwatch"></a>
+                  <a class="glightbox d-none" href="img/product-4.jpg" data-gallery="gallery1" data-glightbox="Red digital smartwatch"></a>
+                </div>
+                <div class="col-lg-6">
+                  <div class="p-4 my-md-4">
+                    <h2 class="h4">75VFAGW-B</h2>
+                    <p class="text-muted">希望小売価格：99,999円より</p>
+                    <p class="text-sm mb-4">
+                      75インチの4Kテレビは、おそらく業界で最も安いテレビだろう。
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--NO.5-->
+      <div class="modal fade" id="productView5" tabindex="-1">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content overflow-hidden border-0">
+            <button class="btn-close p-4 position-absolute top-0 end-0 z-index-20 shadow-0" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+            <div class="modal-body p-0">
+              <div class="row align-items-stretch">
+                <div class="col-lg-6 p-lg-0">
+                  <a class="glightbox product-view d-block h-100 bg-cover bg-center" style="background: url(img/product-5.jpg)" href="img/product-5.jpg" data-gallery="gallery1" data-glightbox="Red digital smartwatch"></a>
+                  <a class="glightbox d-none" href="img/product-5.jpg" data-gallery="gallery1" data-glightbox="Red digital smartwatch"></a>
+                  <a class="glightbox d-none" href="img/product-5.jpg" data-gallery="gallery1" data-glightbox="Red digital smartwatch"></a>
+                </div>
+                <div class="col-lg-6">
+                  <div class="p-4 my-md-4">
+                    <h2 class="h4">Graphics card station A1</h2>
+                    <p class="text-muted">希望小売価格：105,000円より</p>
+                    <p class="text-sm mb-4">
+                      Thunderboltプロトコルと電源内蔵の外付けグラフィックスカードドッキングステーション。
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--NO.6-->
+      <div class="modal fade" id="productView6" tabindex="-1">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content overflow-hidden border-0">
+            <button class="btn-close p-4 position-absolute top-0 end-0 z-index-20 shadow-0" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+            <div class="modal-body p-0">
+              <div class="row align-items-stretch">
+                <div class="col-lg-6 p-lg-0">
+                  <a class="glightbox product-view d-block h-100 bg-cover bg-center" style="background: url(img/product-6.jpg)" href="img/product-6.jpg" data-gallery="gallery1" data-glightbox="Red digital smartwatch"></a>
+                  <a class="glightbox d-none" href="img/product-6.jpg" data-gallery="gallery1" data-glightbox="Red digital smartwatch"></a>
+                  <a class="glightbox d-none" href="img/product-6.jpg" data-gallery="gallery1" data-glightbox="Red digital smartwatch"></a>
+                </div>
+                <div class="col-lg-6">
+                  <div class="p-4 my-md-4">
+                    <h2 class="h4">RTX 4090 Black Crystal Edition</h2>
+                    <p class="text-muted">希望小売価格：349,999円より</p>
+                    <p class="text-sm mb-4">
+                      RTX4090グラフィックスカードは、ゲームとデザインレンダリングの両方に最適です。
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--NO.7-->
+      <div class="modal fade" id="productView7" tabindex="-1">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content overflow-hidden border-0">
+            <button class="btn-close p-4 position-absolute top-0 end-0 z-index-20 shadow-0" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+            <div class="modal-body p-0">
+              <div class="row align-items-stretch">
+                <div class="col-lg-6 p-lg-0">
+                  <a class="glightbox product-view d-block h-100 bg-cover bg-center" style="background: url(img/product-7.jpg)" href="img/product-7.jpg" data-gallery="gallery1" data-glightbox="Red digital smartwatch"></a>
+                  <a class="glightbox d-none" href="img/product-7.jpg" data-gallery="gallery1" data-glightbox="Red digital smartwatch"></a>
+                  <a class="glightbox d-none" href="img/product-7.jpg" data-gallery="gallery1" data-glightbox="Red digital smartwatch"></a>
+                </div>
+                <div class="col-lg-6">
+                  <div class="p-4 my-md-4">
+                    <h2 class="h4">Mini-Monster X</h2>
+                    <p class="text-muted">希望小売価格：220,000円より</p>
+                    <p class="text-sm mb-4">
+                      手のひらサイズのこのミニ・コンソールは、最大RTX4090の超高性能構成を内蔵しており、ゲームとデザイン作業の両方を簡単にこなすことができる。
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--NO.8-->
+      <div class="modal fade" id="productView8" tabindex="-1">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content overflow-hidden border-0">
+            <button class="btn-close p-4 position-absolute top-0 end-0 z-index-20 shadow-0" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+            <div class="modal-body p-0">
+              <div class="row align-items-stretch">
+                <div class="col-lg-6 p-lg-0">
+                  <a class="glightbox product-view d-block h-100 bg-cover bg-center" style="background: url(img/product-8.jpg)" href="img/product-8.jpg" data-gallery="gallery1" data-glightbox="Red digital smartwatch"></a>
+                  <a class="glightbox d-none" href="img/product-8.jpg" data-gallery="gallery1" data-glightbox="Red digital smartwatch"></a>
+                  <a class="glightbox d-none" href="img/product-8.jpg" data-gallery="gallery1" data-glightbox="Red digital smartwatch"></a>
+                </div>
+                <div class="col-lg-6">
+                  <div class="p-4 my-md-4">
+                    <h2 class="h4">Mini-Monster S</h2>
+                    <p class="text-muted">希望小売価格：120,000円より</p>
+                    <p class="text-sm mb-4">
+                      手のひらサイズのこのミニ・コンソールは、最大RTX4090の超高性能構成を内蔵しており、ゲームとデザイン作業の両方を簡単にこなすことができる。
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- HERO SECTION-->
+      <div class="container">
+        <section class="hero pb-3 bg-cover bg-center d-flex align-items-center" style="background: url(img/hero-banner-alt.jpg)">
+          <div class="container py-5">
+            <div class="row px-4 px-lg-5">
+              <div class="col-lg-6">
+                <p class="text-muted small text-uppercase mb-2">新製品</p>
+                <h1 class="h2 text-uppercase mb-3">Illusion Series Double S</h1><a class="btn btn-dark" href="products.html">詳細を見る</a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- CATEGORIES SECTION-->
+        <section class="pt-5">
+          <header class="text-center">
+            <p class="small text-muted small text-uppercase mb-1">丁寧に作られたコレクション</p>
+            <h2 class="h5 text-uppercase mb-4">カテゴリーを見る</h2>
+          </header>
+          <div class="row">
+            <div class="col-md-4"><a class="category-item" href="products.html"><img class="img-fluid" src="img/cat-img-1.jpg" alt=""/><strong class="category-item-title">ノートパソコン</strong></a>
+            </div>
+            <div class="col-md-4"><a class="category-item mb-4" href="products.html"><img class="img-fluid" src="img/cat-img-2.jpg" alt=""/><strong class="category-item-title">ヘッドフォン</strong></a><a class="category-item" href="products.html"><img class="img-fluid" src="img/cat-img-3.jpg" alt=""/><strong class="category-item-title">ミニパソコン</strong></a>
+            </div>
+            <div class="col-md-4"><a class="category-item" href="products.html"><img class="img-fluid" src="img/cat-img-4.jpg" alt=""/><strong class="category-item-title">スマートテレビ</strong></a>
+            </div>
+          </div>
+        </section>
+        <!-- TRENDING PRODUCTS-->
+        <section class="py-5">
+          <header>
+            <p class="small text-muted small text-uppercase mb-1">最新製品</p>
+            <h2 class="h5 text-uppercase mb-4">テクノロジーがすべての人の人生を変える</h2>
+          </header>
+          <div class="row">
+            <!-- PRODUCT-->
+            <div class="col-xl-3 col-lg-4 col-sm-6">
+              <div class="product text-center">
+                <div class="position-relative mb-3">
+                  <div class="badge text-white bg-"></div>
+                  <a class="d-block" >
+                    <img class="img-fluid w-100" src="img/product-1.jpg" alt="...">
+                  </a>
+                  <div class="product-overlay">
+                    <ul class="mb-0 list-inline">
+                      <li class="list-inline-item me-0">
+                        <a class="btn btn-sm btn-outline-dark" href="#productView1" data-bs-toggle="modal">
+                          <i class="fas fa-expand"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <h6> <a class="reset-anchor" >Illusion Series Double S</a></h6>
+                <p class="small text-muted">New</p>
+              </div>
+            </div>
+            <!-- PRODUCT-->
+            <div class="col-xl-3 col-lg-4 col-sm-6">
+              <div class="product text-center">
+                <div class="position-relative mb-3">
+                  <div class="badge text-white bg-"></div>
+                  <a class="d-block" >
+                    <img class="img-fluid w-100" src="img/product-2.jpg" alt="...">
+                  </a>
+                  <div class="product-overlay">
+                    <ul class="mb-0 list-inline">
+                      <li class="list-inline-item me-0">
+                        <a class="btn btn-sm btn-outline-dark" href="#productView2" data-bs-toggle="modal">
+                          <i class="fas fa-expand"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <h6> <a class="reset-anchor" >Illusion Series Double A</a></h6>
+                <p class="small text-muted">New</p>
+              </div>
+            </div>
+            <!-- PRODUCT-->
+            <div class="col-xl-3 col-lg-4 col-sm-6">
+              <div class="product text-center">
+                <div class="position-relative mb-3">
+                  <div class="badge text-white bg-"></div><a class="d-block"><img class="img-fluid w-100" src="img/product-3.jpg" alt="..."></a>
+                  <div class="product-overlay">
+                    <ul class="mb-0 list-inline">
+                      <li class="list-inline-item me-0">
+                        <a class="btn btn-sm btn-outline-dark" href="#productView3" data-bs-toggle="modal">
+                          <i class="fas fa-expand"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <h6> <a class="reset-anchor">Free Series OS1</a></h6>
+                <p class="small text-muted">New</p>
+              </div>
+            </div>
+            <!-- PRODUCT-->
+            <div class="col-xl-3 col-lg-4 col-sm-6">
+              <div class="product text-center">
+                <div class="position-relative mb-3">
+                  <div class="badge text-white bg-"></div><a class="d-block"><img class="img-fluid w-100" src="img/product-4.jpg" alt="..."></a>
+                  <div class="product-overlay">
+                    <ul class="mb-0 list-inline">
+                      <li class="list-inline-item me-0">
+                        <a class="btn btn-sm btn-outline-dark" href="#productView4" data-bs-toggle="modal">
+                          <i class="fas fa-expand"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <h6> <a class="reset-anchor">75VFAGW-B</a></h6>
+                <p class="small text-muted">New</p>
+              </div>
+            </div>
+            <!-- PRODUCT-->
+            <div class="col-xl-3 col-lg-4 col-sm-6">
+              <div class="product text-center">
+                <div class="position-relative mb-3">
+                  <div class="badge text-white bg-"></div><a class="d-block"><img class="img-fluid w-100" src="img/product-5.jpg" alt="..."></a>
+                  <div class="product-overlay">
+                    <ul class="mb-0 list-inline">
+                      <li class="list-inline-item me-0">
+                        <a class="btn btn-sm btn-outline-dark" href="#productView5" data-bs-toggle="modal">
+                          <i class="fas fa-expand"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <h6> <a class="reset-anchor">Graphics card station A1</a></h6>
+                <p class="small text-muted">New</p>
+              </div>
+            </div>
+            <!-- PRODUCT-->
+            <div class="col-xl-3 col-lg-4 col-sm-6">
+              <div class="product text-center">
+                <div class="position-relative mb-3">
+                  <div class="badge text-white bg-"></div><a class="d-block"><img class="img-fluid w-100" src="img/product-6.jpg" alt="..."></a>
+                  <div class="product-overlay">
+                    <ul class="mb-0 list-inline">
+                      <li class="list-inline-item me-0">
+                        <a class="btn btn-sm btn-outline-dark" href="#productView6" data-bs-toggle="modal">
+                          <i class="fas fa-expand"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <h6> <a class="reset-anchor">RTX 4090 Black Crystal Edition</a></h6>
+                <p class="small text-muted">New</p>
+              </div>
+            </div>
+            <!-- PRODUCT-->
+            <div class="col-xl-3 col-lg-4 col-sm-6">
+              <div class="product text-center">
+                <div class="position-relative mb-3">
+                  <div class="badge text-white bg-"></div><a class="d-block"><img class="img-fluid w-100" src="img/product-7.jpg" alt="..."></a>
+                  <div class="product-overlay">
+                    <ul class="mb-0 list-inline">
+                      <li class="list-inline-item me-0">
+                        <a class="btn btn-sm btn-outline-dark" href="#productView7" data-bs-toggle="modal">
+                          <i class="fas fa-expand"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <h6> <a class="reset-anchor">Mini-Monster X</a></h6>
+                <p class="small text-muted">New</p>
+              </div>
+            </div>
+            <!-- PRODUCT-->
+            <div class="col-xl-3 col-lg-4 col-sm-6">
+              <div class="product text-center">
+                <div class="position-relative mb-3">
+                  <div class="badge text-white bg-"></div><a class="d-block"><img class="img-fluid w-100" src="img/product-8.jpg" alt="..."></a>
+                  <div class="product-overlay">
+                    <ul class="mb-0 list-inline">
+                      <li class="list-inline-item me-0">
+                        <a class="btn btn-sm btn-outline-dark" href="#productView8" data-bs-toggle="modal">
+                          <i class="fas fa-expand"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <h6> <a class="reset-anchor">Mini-Monster S</a></h6>
+                <p class="small text-muted">New</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- SERVICES-->
+        <section class="py-5 bg-light">
+          <div class="container">
+            <div class="row text-center gy-3">
+              <div class="col-lg-4">
+                <div class="d-inline-block">
+                  <div class="d-flex align-items-end">
+                    <svg class="svg-icon svg-icon-big svg-icon-light">
+                      <use xlink:href="#configuration-1"> </use>
+                    </svg>
+                    <div class="text-start ms-3">
+                      <h6 class="text-uppercase mb-1">無料アフターサービス</h6>
+                      <p class="text-sm mb-0 text-muted">一部商品の無料修理サービスを行っております</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="d-inline-block">
+                  <div class="d-flex align-items-end">
+                    <svg class="svg-icon svg-icon-big svg-icon-light">
+                      <use xlink:href="#special-price-1"> </use>
+                    </svg>
+                    <div class="text-start ms-3">
+                      <h6 class="text-uppercase mb-1">大量購入割引可能</h6>
+                      <p class="text-sm mb-0 text-muted">大量購入には特別割引が提供されます</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="d-inline-block">
+                  <div class="d-flex align-items-end">
+                    <svg class="svg-icon svg-icon-big svg-icon-light">
+                      <use xlink:href="#quality-1"> </use>
+                    </svg>
+                    <div class="text-start ms-3">
+                      <h6 class="text-uppercase mb-1">最高品質に執着する</h6>
+                      <p class="text-sm mb-0 text-muted">品質は、当社の絶対守るべき底力です</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- NEWSLETTER-->
+        <section class="py-5">
+          <div class="container p-0">
+            <div class="row gy-3">
+              <form action="#">
+                <p>* 画像は全部イメージです。カラーとモデルは国や地域、キャリアによって異なる場合があります。</p>
+                <p>* 
+                  OXEIは竜粋堂株式会社のブランドである。</p>
+                <p>* 竜粋堂株式会社（以下「当社」といいます。）は、このウェブサイトに情報を掲載する際、細心の注意を払っておりますが、これらの情報内容（以下、コンテンツ等）が正確なものか、
+                  有用なものか、ご利用になる皆様の目的に合ったものか、安全なものか（機能が中断しないこと、障害が発生しないこと、
+                  コンピュータウィルスやその他の有害物がないこと）などにつきましては一切保証致しません。また当社は、
+                  皆様がこのウェブサイトをご利用になったことにより生じるいかなる損害についても責任を負うものではありません。</p>
+                <p>* 当社は、ウェブサイトの構成、利用条件、URLおよびコンテンツ等を、予告なしに変更または中止することがあります。あらかじめご了承ください。
+                  当該コンテンツの変更もしくは削除、または運用の中断もしくは中止によって生じるいかなる損害につきましても、当社は一切責任を負うものではありません。</p>
+                <p>* 通信事業者やインターネットプロバイダーの通信状況が原因でインターネットに接続できない場合、およびその他の理由でサービスを利用できない場合につきましても、
+                  当社は一切責任を負うものではありません。</p>
+                <p>* 
+                  このウェブサイトからリンクが張られている当社以外の第三者のウェブサイトにつきましては、当該第三者の責任において管理されております。
+                  当社は、当該第三者のウェブサイトの内容について、何ら保証するものではありません。</p>
+              </form>
+            </div>
+          </div>
+        </section>
+      </div>
+      <footer class="bg-dark text-white">
+        <div class="container py-4">
+          <div class="row py-5">
+            <div class="col-md-4 mb-3 mb-md-0">
+              <h6 class="text-uppercase mb-3">ALL</h6>
+              <ul class="list-unstyled mb-0">
+                <li><a class="footer-link" href="#">HOME</a></li>
+                <li><a class="footer-link" href="products.html">製品情報</a></li>
+                <li><a class="footer-link" href="about.html">企業情報</a></li>
+                <li><a class="footer-link" href="contact.html">お問い合わせ先</a></li>
+              </ul>
+            </div>
+            <div class="col-md-4 mb-3 mb-md-0">
 
-<head>
-<meta charset="utf-8">
-<title>Ryuusui - Coming Soon!!!</title>
-<meta name="description" content="Ace Page under construction">
-<meta http-equiv="X-UA-Compatible" content="chrome=1">
-<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=PT+Sans+Narrow:regular,bold"> 
-<link rel="stylesheet" type="text/css" href="css/styles.css">
-<!-- Favicon-->
-<link rel="shortcut icon" href="images/favicon.png">
-</head>
-
-<body id="home">
-
-<div id="Content" class="wrapper topSection">
-	<div id="Header">
-		<div class="logo">
-			<img src="images/logo.png" alt="竜粋 Logo" width="130" height="130">
-		  </div>
-		</div>
-	<h2>Our new site is coming soon!!!</h2>
-    <strong>Stay tuned for something amazing</strong>	
-<div class="countdown styled"></div>
-</div>
-<div id="subscribe">
-	<div id="socialIcons">
-		<ul> 
-			<li><a href="" title="Twitter" class="twitterIcon"></a></li>
-			<li><a href="" title="xiaohongshu" class="xiaohongshuIcon"></a></li>
-			<li><a href="" title="youtube" class="youtubeIcon"></a></li>
-			<li><a href="" title="ins" class="insIcon"></a></li>
-		</ul>
-	</div>
-</div>
-<span class="tempBy"> <a target="_blank" href="http://www.ryuusuidou.com/" title="竜粋堂">竜粋堂</a>Copyright © 2024  RyuuSui CO., LTD. . All Rights Reserved.</span>
-
-<!--Scripts-->
-<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script> 
-<script type="text/javascript" src="js/jquery.countdown.js"></script>
-<script type="text/javascript" src="js/global.js"></script>
-
-</body>
+            </div>
+            <div class="col-md-4">
+              <h6 class="text-uppercase mb-3">ソーシャルメディア</h6>
+              <ul class="list-unstyled mb-0">
+                <li><a class="footer-link" href="#!">Twitter</a></li>
+                <li><a class="footer-link" href="#!">Instagram</a></li>
+                <li><a class="footer-link" href="#!">小红书</a></li>
+                <li><a class="footer-link" href="#!">Youtube</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="border-top pt-4" style="border-color: #1d1d1d !important">
+            <div class="row">
+              <div class="col-md-6 text-center text-md-start">
+                <p class="small text-muted mb-0">Copyright © 2025 RyuuSui CO., LTD. . All Rights Reserved.</p>
+              </div>
+              <div class="col-md-6 text-center text-md-end">
+                <p class="small text-muted mb-0"><a target="_blank" href="http://www.ryuusuidou.com/" title="竜粋堂" class="text-white reset-anchor">竜粋堂</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- JavaScript files-->
+      <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <script src="vendor/glightbox/js/glightbox.min.js"></script>
+      <script src="vendor/nouislider/nouislider.min.js"></script>
+      <script src="vendor/swiper/swiper-bundle.min.js"></script>
+      <script src="vendor/choices.js/public/assets/scripts/choices.min.js"></script>
+      <script src="js/front.js"></script>
+      <script>
+        // ------------------------------------------------------- //
+        //   Inject SVG Sprite - 
+        //   see more here 
+        //   https://css-tricks.com/ajaxing-svg-sprite/
+        // ------------------------------------------------------ //
+        function injectSvgSprite(path) {
+        
+            var ajax = new XMLHttpRequest();
+            ajax.open("GET", path, true);
+            ajax.send();
+            ajax.onload = function(e) {
+            var div = document.createElement("div");
+            div.className = 'd-none';
+            div.innerHTML = ajax.responseText;
+            document.body.insertBefore(div, document.body.childNodes[0]);
+            }
+        }
+        // this is set to BootstrapTemple website as you cannot 
+        // inject local SVG sprite (using only 'icons/orion-svg-sprite.svg' path)
+        // while using file:// protocol
+        // pls don't forget to change to your domain :)
+        injectSvgSprite('icons/orion-svg-sprite.svg'); 
+        
+      </script>
+      <!-- FontAwesome CSS - loading as last, so it doesn't block rendering-->
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    </div>
+  </body>
 </html>
